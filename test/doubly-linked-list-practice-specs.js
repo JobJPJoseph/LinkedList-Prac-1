@@ -63,9 +63,9 @@ describe('Doubly Linked List', () => {
         beforeEach(function () {
             doublyLinkedList = new DoublyLinkedList();
 
-            doublyLinkedList.addToTail(1);
-            doublyLinkedList.addToTail(2);
-            doublyLinkedList.addToTail(3);
+            doublyLinkedList.addToTail(1); // => 1
+            doublyLinkedList.addToTail(2); // => 1, 2
+            doublyLinkedList.addToTail(3); // => 1, 2, 3
         });
 
         it('addToTail adds the correct tail node', () => {
